@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HealthyEats</string>
+    <string name="title_home">Home</string>
+    <string name="title_target">Target</string>
+    <string name="title_history">History</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profile">Profile</string>
+    <string name="tambah_target">Tambah Target</string>
+    <string name="ubah_akg">Ubah akg</string>
+    <string name="sisa_kalori">Sisa Kalori:</string>
+    <string name="konsumsi_kalori">Konsumsi Kalori:</string>
+    <string name="_2700">2700</string>
+    <string name="_0">0</string>
+</resources>
