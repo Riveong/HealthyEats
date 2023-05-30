@@ -8,7 +8,9 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.healthyeats.databinding.FragmentHistoryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HistoriesFragment : Fragment() {
 
     private var _binding: FragmentHistoryBinding? = null

@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.example.healthyeats.R
 import com.example.healthyeats.databinding.FragmentHistoryBinding
 import com.example.healthyeats.databinding.FragmentProfileBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ProfileFragment : Fragment() {
 
     private var _binding: FragmentProfileBinding? = null
