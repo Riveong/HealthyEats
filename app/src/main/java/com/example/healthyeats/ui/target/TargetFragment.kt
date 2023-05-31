@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.healthyeats.databinding.FragmentTargetBinding
+import com.example.healthyeats.ui.akg.CalculateAkgActivity
+import com.example.healthyeats.ui.change.ChangeDataActivity
 import com.example.healthyeats.ui.detect.DetectActivity
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -38,6 +40,10 @@ class TargetFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.btnAkg.setOnClickListener{
+            startActivity(Intent(requireContext(), CalculateAkgActivity::class.java))
+        }
 
         binding.fabTarget.setOnClickListener{
             startActivity(Intent(requireContext(), DetectActivity::class.java))
